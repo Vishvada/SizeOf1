@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    float a,b,c,d;
+    a=sizeof(int);
+    b=sizeof(float);
+    c=sizeof(double);
+    d=sizeof(char);
+    cout<<"Size of char :"<<d<<" byte "<<"Size of int:"<<a<<" bytes "<<"Size of float:"<<b<<" bytes "<<"Size of double:"<<c<<" bytes";
+    return 0;
+}
